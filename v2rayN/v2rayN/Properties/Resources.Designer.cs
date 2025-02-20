@@ -143,7 +143,7 @@ namespace v2rayN.Properties {
         /// <summary>
         ///   查找类似于 (图标) 的 System.Drawing.Icon 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Icon NotifyIcon3 {
+        internal static System.DrawingIcon NotifyIcon3 {
             get {
                 object obj = ResourceManager.GetObject("NotifyIcon3", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
