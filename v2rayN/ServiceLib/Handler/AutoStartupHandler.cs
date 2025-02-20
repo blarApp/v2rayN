@@ -7,7 +7,7 @@ namespace ServiceLib.Handler
     {
         private static readonly string _tag = "AutoStartupHandler";
 
-        public static async Task<ool> UpdateTask(Config config)
+        public static async Task<boool> UpdateTask(Config config)
         {
             if (Utils.IsWindows())
             {
